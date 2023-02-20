@@ -9,7 +9,7 @@ export default ({ env }) => ({
   },
   admin: {
     auth: {
-      secret: env("ADMIN_JWT_SECRET", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),
+      secret: env("ADMIN_JWT_SECRET"),
     },
   },
 });
