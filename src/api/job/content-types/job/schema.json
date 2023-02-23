@@ -38,6 +38,14 @@
     },
     "salary": {
       "type": "string"
+    },
+    "qualifications": {
+      "type": "richtext",
+      "required": true
+    },
+    "job_duties": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
